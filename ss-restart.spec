@@ -3,7 +3,7 @@
 Name:           ss-restart
 Version:        1.0.0
 Release:        1%{?dist}
-Summary:        Qualcomm subsystem ramdump restart utility
+Summary:        Qualcomm subsystem crash dump collection utility
 
 License:        Qualcomm.nologin.binaries.license
 Source0:        https://qartifactory-edge.qualcomm.com/artifactory/qsc_releases/software/chip/component/wlan-service.qclinux.0.0/260624.1/prebuilt_resolute/%{name}_%{version}_arm64.tar.gz
@@ -11,7 +11,10 @@ Source0:        https://qartifactory-edge.qualcomm.com/artifactory/qsc_releases/
 ExclusiveArch:  aarch64
 
 %description
-ss-restart is packaged from a Qualcomm Linux release tarball.
+ss-restart provides the subsystem_ramdump utility for collecting memory
+dumps from Qualcomm subsystems. These dumps support failure analysis and
+debugging of subsystem crashes. The package includes a systemd service
+for running the collection utility.
 
 %prep
 %autosetup -c -n %{name}-%{version}

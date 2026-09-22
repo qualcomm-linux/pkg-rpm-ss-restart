@@ -4,6 +4,11 @@ SPDX-License-Identifier: BSD-3-Clause
 -->
 # ss-restart RPM - CentOS Stream 10
 
+ss-restart provides the subsystem_ramdump utility for collecting memory
+dumps from Qualcomm subsystems. These dumps support failure analysis and
+debugging of subsystem crashes. The package includes a systemd service
+for running the collection utility.
+
 This branch contains the CentOS Stream 10 RPM packaging for ss-restart from a Qualcomm Linux release tarball.
 
 ## Package
@@ -11,6 +16,7 @@ This branch contains the CentOS Stream 10 RPM packaging for ss-restart from a Qu
 | Field | Value |
 |---|---|
 | Package | ss-restart |
+| Summary | Qualcomm subsystem crash dump collection utility |
 | Version | 1.0.0 |
 | Source | ss-restart_1.0.0_arm64.tar.gz |
 | Source checksum | See sources |
