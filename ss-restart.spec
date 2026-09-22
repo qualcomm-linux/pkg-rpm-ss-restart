@@ -2,10 +2,10 @@
 
 Name:           ss-restart
 Version:        1.0.0
-Release:        2%{?dist}
+Release:        1%{?dist}
 Summary:        Qualcomm subsystem ramdump restart utility
 
-License:        Qualcomm-Technologies-Inc.-Proprietary
+License:        Qualcomm.nologin.binaries.license
 Source0:        https://qartifactory-edge.qualcomm.com/artifactory/qsc_releases/software/chip/component/wlan-service.qclinux.0.0/260624.1/prebuilt_resolute/%{name}_%{version}_arm64.tar.gz
 
 ExclusiveArch:  aarch64
