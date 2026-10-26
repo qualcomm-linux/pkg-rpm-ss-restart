@@ -3,7 +3,7 @@
 
 Name:           ss-restart
 Version:        1.0.0
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Qualcomm subsystem crash dump collection utility
 
 License:        BSD-3-Clause-Clear
@@ -58,7 +58,7 @@ cd subsystem_ramdump
 %{_unitdir}/subsystem-ramdump.service
 
 %changelog
-* Mon Oct 26 2026 Yu Zhang <yu.zhang@oss.qualcomm.com> - 1.0.0-1
+* Mon Oct 26 2026 Yu Zhang <yu.zhang@oss.qualcomm.com> - 1.0.0-2
 - Build subsystem_ramdump from CodeLinaro release LE.QCLINUX.0.0-11500-K2C.0
 - Correct the payload license to BSD-3-Clause-Clear
 - Add systemd service lifecycle scriptlets
