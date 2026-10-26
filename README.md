@@ -22,7 +22,7 @@ Check out that branch to access the spec file and `sources`.
 | Package | ss-restart |
 | Summary | Qualcomm subsystem crash dump collection utility |
 | Version | 1.0.0 |
-| Release | 1 |
+| Release | 2 |
 | Architecture | aarch64 |
 | License | BSD-3-Clause-Clear |
 | Upstream release | [LE.QCLINUX.0.0-11500-K2C.0](https://github.com/CodeLinaro-mirror/le_platform_vendor_qcom_opensource_ss-restart/releases/tag/LE.QCLINUX.0.0-11500-K2C.0) |
